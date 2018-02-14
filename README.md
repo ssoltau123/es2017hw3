@@ -1,4 +1,5 @@
 # es2017hw3A line I wrote on my local computer
+<<<<<<< HEAD
 
 
 
@@ -278,4 +279,17 @@ ggplot(CH4.day6, aes(x=site, y=CH4.flux.mass, colour=treat)) +
   scale_y_continuous(limits = c(-0.3, 0.01))
 
 dev.off()
+=======
+#' Here's some prose in a very special comment. Let's summarize the built-in
+#' dataset `VADeaths`.
+## here is a regular code comment, that will remain as such
+summary(VADeaths)
+
+#' Here's some more prose. I can use usual markdown syntax to make things
+#' **bold** or *italics*. Let's use an example from the `dotchart()` help to
+#' make a Cleveland dot plot from the `VADeaths` data. I even bother to name
+#' this chunk, so the resulting PNG has a decent name.
+#+ dotchart
+dotchart(VADeaths, main = "Death Rates in Virginia - 1940")
+>>>>>>> e707f70a18436532e2b0fc195ab5856a7124c267
 
